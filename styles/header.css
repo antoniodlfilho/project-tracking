@@ -1,0 +1,40 @@
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px 240px;
+}
+
+.header-content::before {
+  content: "";
+  position: absolute;
+  width: 950px;
+  height: 800px;
+  background-color: hsl(207, 33%, 95%);
+  z-index: -1;
+  right: 0px;
+  border-radius: 0px 0px 0px 70px;
+}
+
+.nav-items ul {
+  display: flex;
+  align-items: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: hsl(230, 29.4%, 20%);
+  gap: 45px;
+}
+
+.nav-items span {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: hsl(231, 7%, 65%);
+}
+
+.btn-login {
+   color: hsl(230, 11%, 40%);
+}
