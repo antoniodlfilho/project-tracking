@@ -28,6 +28,14 @@
   gap: 45px;
 }
 
+/* .nav-items ul li {
+  transition: 0.10s;
+} */
+
+.nav-items ul li:hover {
+  text-decoration: underline;
+}
+
 .nav-items span {
   height: 5px;
   width: 5px;
@@ -37,4 +45,30 @@
 
 .btn-login {
    color: hsl(230, 11%, 40%);
+   transition: 0.5s;
+}
+
+.btn-login:hover {
+  text-decoration: underline;
+  text-decoration-color: hsl(230, 11%, 40%);
+}
+
+@media (max-width: 1440px) {
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 160px;
+  }
+  
+  .nav-items ul {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .header-content::before {
+    width: 650px;
+    height: 540px;
+    border-radius: 0px 0px 0px 50px;
+  }
 }

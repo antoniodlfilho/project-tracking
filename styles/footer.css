@@ -1,0 +1,7 @@
+.footer-content {
+    font-family: "Barlow Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+margin-top: 100px;
+}
