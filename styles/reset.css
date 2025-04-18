@@ -43,4 +43,8 @@ button, input, textarea, select {
    outline: none;
 }
 
-/* Agrega más estilos de reset según tus necesidades */
+@media (max-width: 385px) {
+   html, body {
+      overflow-y: auto;
+   }
+}
