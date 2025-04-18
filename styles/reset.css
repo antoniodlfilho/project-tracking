@@ -43,7 +43,7 @@ button, input, textarea, select {
    outline: none;
 }
 
-@media (max-width: 385px) {
+@media (max-width: 390px) {
    html, body {
       overflow-y: auto;
    }
