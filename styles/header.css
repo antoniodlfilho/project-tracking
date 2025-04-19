@@ -86,9 +86,9 @@
   }
 
   .header-content::before {
-    width: 185px;
+    width: 190px;
     height: 800px;
-    left: 170px;
+    left: 180px;
   }
 
   .menu-mobile {
@@ -109,10 +109,10 @@
     color: hsl(230, 29.4%, 20%);
     gap: 18px;
     flex-direction: column;
-    right: 30px;
-    top: 97px;
+    right: 5px;
+    top: 80px;
     /* left: 50%; */
-    width: 84.5%;
+    width: 98.5%;
     height: 235px;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 0px 1px 2px 0px hsl(230, 29.40%, 20.00%);
@@ -124,8 +124,32 @@
 
   .nav-items span {
     height: 2px;
-    width: 274px;
+    width: 250px;
     border-radius: 1px;
     background-color: hsl(231deg 7% 65% / 29%);
+  }
+}
+
+@media (max-width: 390px) {
+  .header-content::before {
+    width: 190px;
+    height: 800px;
+    left: 170px;
+  }
+}
+
+@media (max-width: 380px) {
+  .header-content::before {
+      width: 180px;
+      height: 800px;
+      left: 166px;
+  }
+}
+
+@media (max-width: 370px) {
+  .header-content::before {
+      width: 175px;
+      height: 800px;
+      left: 165px;
   }
 }
