@@ -46,5 +46,6 @@ button, input, textarea, select {
 @media (max-width: 400px) {
    html, body {
       overflow-y: auto;
+      overflow-X: hidden;
    }
 }

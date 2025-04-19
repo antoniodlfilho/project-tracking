@@ -130,7 +130,7 @@
   }
 }
 
-@media (max-width: 390px) {
+/* @media (max-width: 390px) {
   .header-content::before {
     width: 190px;
     height: 800px;
@@ -152,4 +152,4 @@
       height: 800px;
       left: 165px;
   }
-}
+} */
