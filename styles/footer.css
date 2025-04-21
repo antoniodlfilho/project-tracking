@@ -1,7 +1,17 @@
 .footer-content {
+  font-family: "Barlow Condensed", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 230px;
+}
+
+@media (max-width: 1440px) {
+  .footer-content {
     font-family: "Barlow Condensed", sans-serif;
     display: flex;
     justify-content: center;
     align-items: end;
     margin-top: 100px;
+  }
 }

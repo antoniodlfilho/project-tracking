@@ -13,7 +13,7 @@
   height: 750px;
   background-color: hsl(207, 33%, 95%);
   z-index: -1;
-  right: 0px;
+  right: -240px;
   border-radius: 0px 0px 0px 70px;
 }
 
@@ -45,8 +45,8 @@
 }
 
 .btn-login {
-   color: hsl(230, 11%, 40%);
-   transition: 0.5s;
+  color: hsl(230, 11%, 40%);
+  transition: 0.5s;
 }
 
 .btn-login:hover {
@@ -61,7 +61,7 @@
     justify-content: space-between;
     margin: 40px 160px;
   }
-  
+
   .nav-items ul {
     font-size: 14px;
     font-weight: 700;
@@ -115,7 +115,7 @@
     width: 98.5%;
     height: 235px;
     background-color: hsl(0, 0%, 100%);
-    box-shadow: 0px 1px 2px 0px hsl(230, 29.40%, 20.00%);
+    box-shadow: 0px 1px 2px 0px hsl(230, 29.4%, 20%);
   }
 
   .nav-items ul.active {
